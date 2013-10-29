@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F06D66D2-5C58-47D9-B3EC-402A90C1B027}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SAShared</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;SASHARED_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../sources/SAShared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;SASHARED_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Common\SA_String.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_CoreConstants.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_InitSessionData.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_ObjectWithProperties.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Properties.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Property.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_PropertyCategory.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_TreeItem.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_User.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Variant.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Widget.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateProperty.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivatePropertyCategory.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateSession.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateTreeItem.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateVariant.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Shared.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\StdAfx.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\LogManager\SA_LogMananger.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\SA_Assert.h" />
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\SA_UtilConstants.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Common\SA_String.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Properties.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Property.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_PropertyCategory.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_TreeItem.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_User.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Variant.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Widget.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_WidgetWithProperties.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateProperty.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivatePropertyCategory.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateTreeItem.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateVariant.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Utils\LogManager\SA_LogManager.cpp" />
+    <ClCompile Include="..\..\sources\SAShared\Sources\Utils\SA_Assert.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

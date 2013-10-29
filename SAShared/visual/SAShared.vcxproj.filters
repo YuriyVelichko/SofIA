@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="sources\Common">
+      <UniqueIdentifier>{1c4d80aa-99cb-4c82-9bbb-9d2d3ef5f6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Core">
+      <UniqueIdentifier>{ced070e5-525b-448e-844b-3993c983d2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Private">
+      <UniqueIdentifier>{3192de87-288d-4122-87b8-dbc4e1e265ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Utils">
+      <UniqueIdentifier>{c7329d9a-c360-4831-b1a7-9f7376c59436}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Private\Common">
+      <UniqueIdentifier>{7efe0a81-8253-46dc-8e0c-05e938fd9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Private\Core">
+      <UniqueIdentifier>{62a1bcc6-c59a-45c9-b707-fcc5e4614d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Utils\LogManager">
+      <UniqueIdentifier>{2c185922-6a1e-433b-bee7-9f3049b85bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SAShared\Common">
+      <UniqueIdentifier>{78ce9918-1c9c-4ba0-b870-c7fe44a14033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Core">
+      <UniqueIdentifier>{d3560795-a68a-4bf6-b6b6-7a547530abc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Private">
+      <UniqueIdentifier>{fbd7c0b8-dc27-41bd-9d69-ca683a53633a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Utils">
+      <UniqueIdentifier>{2d22ca16-a1b2-4d20-b8e7-560e59820478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Private\Common">
+      <UniqueIdentifier>{771d6fe0-7743-4126-a277-019c677764d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Private\Core">
+      <UniqueIdentifier>{4640935f-1b9b-42a3-9e64-c8a2aa00dc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SAShared\Utils\LogManager">
+      <UniqueIdentifier>{591d4fbf-b87d-43bc-a9be-b1af8c3db902}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\SA_Assert.h">
+      <Filter>SAShared\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\SA_UtilConstants.h">
+      <Filter>SAShared\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Utils\LogManager\SA_LogMananger.h">
+      <Filter>SAShared\Utils\LogManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateProperty.h">
+      <Filter>SAShared\Private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivatePropertyCategory.h">
+      <Filter>SAShared\Private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateSession.h">
+      <Filter>SAShared\Private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateTreeItem.h">
+      <Filter>SAShared\Private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Private\Core\SA_PrivateVariant.h">
+      <Filter>SAShared\Private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_CoreConstants.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_InitSessionData.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_ObjectWithProperties.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Properties.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Property.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_PropertyCategory.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_TreeItem.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_User.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Variant.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Core\SA_Widget.h">
+      <Filter>SAShared\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Common\SA_String.h">
+      <Filter>SAShared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\Shared.h">
+      <Filter>SAShared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sources\SAShared\SAShared\StdAfx.h">
+      <Filter>SAShared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Utils\SA_Assert.cpp">
+      <Filter>sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Utils\LogManager\SA_LogManager.cpp">
+      <Filter>sources\Utils\LogManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateProperty.cpp">
+      <Filter>sources\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivatePropertyCategory.cpp">
+      <Filter>sources\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateTreeItem.cpp">
+      <Filter>sources\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Private\Core\SA_PrivateVariant.cpp">
+      <Filter>sources\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Properties.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Property.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_PropertyCategory.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_TreeItem.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_User.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Variant.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_Widget.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Core\SA_WidgetWithProperties.cpp">
+      <Filter>sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\sources\SAShared\Sources\Common\SA_String.cpp">
+      <Filter>sources\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
