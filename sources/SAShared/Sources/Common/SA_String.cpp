@@ -32,7 +32,7 @@ String::String(
 
 	wchar_t* wcstring = new wchar_t[newsize];
 
-	mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);	
+	// mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);
 
 	mBase = wcstring;	
 
@@ -41,7 +41,7 @@ String::String(
 
 /********************************************************************************************************/
 String::String(
-	wchar_t*		inValue )
+	const wchar_t*  inValue )
 {
 	mBase = inValue;
 }
@@ -105,7 +105,8 @@ char* String::c_str( void ) const
 	const size_t newsize = origsize * 10;
 	size_t convertedChars = 0;
 	char* nstring = new char[newsize];
-	wcstombs_s(&convertedChars, nstring, origsize, mBase.c_str(), _TRUNCATE);
+    
+	// wcstombs_s(&convertedChars, nstring, origsize, mBase.c_str(), _TRUNCATE);
 
 	return nstring;		
 }
@@ -130,7 +131,7 @@ void String::operator = (
 
 	wchar_t* wcstring = new wchar_t[newsize];
 
-	mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);	
+	// mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);
 	
 	mBase = wcstring;	
 

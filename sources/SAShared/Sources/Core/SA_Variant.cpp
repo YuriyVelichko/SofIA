@@ -90,9 +90,9 @@ bool SA_Variant::ToBool( void ) const
 	{		
 		case kValue_Bool		: return mpData->mBool;
 		case kValue_Long		: return mpData->mLong != 0;
-		case kValue_String	: return mpData->mString != L"0";
+		case kValue_String      : return mpData->mString != L"0";
 
-		default				: return false;
+		default                 : return false;
 	}
 }
 
@@ -116,7 +116,7 @@ String SA_Variant::ToString( void ) const
 	{		
 		case kValue_Bool		: return mpData->mBool ? L"1" : L"0";
 		case kValue_Long		: return String( mpData->mLong );
-		case kValue_String	: return mpData->mString;
+		case kValue_String      : return mpData->mString;
 
 		default				: return String::Empty();
 	}

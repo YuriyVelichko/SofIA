@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F02BC001835875E001F9216 /* SA_String.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBCE1835875E001F9216 /* SA_String.h */; };
+		7F02BC011835875E001F9216 /* SA_CoreConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD01835875E001F9216 /* SA_CoreConstants.h */; };
+		7F02BC021835875E001F9216 /* SA_InitSessionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD11835875E001F9216 /* SA_InitSessionData.h */; };
+		7F02BC031835875E001F9216 /* SA_ObjectWithProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */; };
+		7F02BC041835875E001F9216 /* SA_Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD31835875E001F9216 /* SA_Properties.h */; };
+		7F02BC051835875E001F9216 /* SA_Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD41835875E001F9216 /* SA_Property.h */; };
+		7F02BC061835875E001F9216 /* SA_PropertyCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD51835875E001F9216 /* SA_PropertyCategory.h */; };
+		7F02BC071835875E001F9216 /* SA_TreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD61835875E001F9216 /* SA_TreeItem.h */; };
+		7F02BC081835875E001F9216 /* SA_User.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD71835875E001F9216 /* SA_User.h */; };
+		7F02BC091835875E001F9216 /* SA_Variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD81835875E001F9216 /* SA_Variant.h */; };
+		7F02BC0A1835875E001F9216 /* SA_Widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD91835875E001F9216 /* SA_Widget.h */; };
+		7F02BC0B1835875E001F9216 /* SA_PrivateProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */; };
+		7F02BC0C1835875E001F9216 /* SA_PrivatePropertyCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */; };
+		7F02BC0D1835875E001F9216 /* SA_PrivateSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */; };
+		7F02BC0E1835875E001F9216 /* SA_PrivateTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */; };
+		7F02BC0F1835875E001F9216 /* SA_PrivateVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */; };
+		7F02BC101835875E001F9216 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE11835875E001F9216 /* Shared.h */; };
+		7F02BC111835875E001F9216 /* StdAfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE21835875E001F9216 /* StdAfx.h */; };
+		7F02BC121835875E001F9216 /* SA_LogMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE51835875E001F9216 /* SA_LogMananger.h */; };
+		7F02BC131835875E001F9216 /* SA_Assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE61835875E001F9216 /* SA_Assert.h */; };
+		7F02BC141835875E001F9216 /* SA_UtilConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE71835875E001F9216 /* SA_UtilConstants.h */; };
+		7F02BC151835875E001F9216 /* SA_String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBEA1835875E001F9216 /* SA_String.cpp */; };
+		7F02BC161835875E001F9216 /* SA_Properties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBEC1835875E001F9216 /* SA_Properties.cpp */; };
+		7F02BC171835875E001F9216 /* SA_Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBED1835875E001F9216 /* SA_Property.cpp */; };
+		7F02BC181835875E001F9216 /* SA_PropertyCategory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBEE1835875E001F9216 /* SA_PropertyCategory.cpp */; };
+		7F02BC1A1835875E001F9216 /* SA_TreeItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF01835875E001F9216 /* SA_TreeItem.cpp */; };
+		7F02BC1B1835875E001F9216 /* SA_User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF11835875E001F9216 /* SA_User.cpp */; };
+		7F02BC1C1835875E001F9216 /* SA_Variant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF21835875E001F9216 /* SA_Variant.cpp */; };
+		7F02BC1D1835875E001F9216 /* SA_Widget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF31835875E001F9216 /* SA_Widget.cpp */; };
+		7F02BC1E1835875E001F9216 /* SA_WidgetWithProperties.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF41835875E001F9216 /* SA_WidgetWithProperties.cpp */; };
+		7F02BC1F1835875E001F9216 /* SA_PrivateProperty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF71835875E001F9216 /* SA_PrivateProperty.cpp */; };
+		7F02BC201835875E001F9216 /* SA_PrivatePropertyCategory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF81835875E001F9216 /* SA_PrivatePropertyCategory.cpp */; };
+		7F02BC211835875E001F9216 /* SA_PrivateTreeItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBF91835875E001F9216 /* SA_PrivateTreeItem.cpp */; };
+		7F02BC221835875E001F9216 /* SA_PrivateVariant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBFA1835875E001F9216 /* SA_PrivateVariant.cpp */; };
+		7F02BC231835875E001F9216 /* SA_LogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBFD1835875E001F9216 /* SA_LogManager.cpp */; };
+		7F02BC241835875E001F9216 /* SA_Assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBFE1835875E001F9216 /* SA_Assert.cpp */; };
+		7F02BC251835875E001F9216 /* StdAfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBFF1835875E001F9216 /* StdAfx.h */; };
+		7FC611AE183585E90028569F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC611AD183585E90028569F /* CoreFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F02BBCE1835875E001F9216 /* SA_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_String.h; sourceTree = "<group>"; };
+		7F02BBD01835875E001F9216 /* SA_CoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_CoreConstants.h; sourceTree = "<group>"; };
+		7F02BBD11835875E001F9216 /* SA_InitSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_InitSessionData.h; sourceTree = "<group>"; };
+		7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_ObjectWithProperties.h; sourceTree = "<group>"; };
+		7F02BBD31835875E001F9216 /* SA_Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Properties.h; sourceTree = "<group>"; };
+		7F02BBD41835875E001F9216 /* SA_Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Property.h; sourceTree = "<group>"; };
+		7F02BBD51835875E001F9216 /* SA_PropertyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PropertyCategory.h; sourceTree = "<group>"; };
+		7F02BBD61835875E001F9216 /* SA_TreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_TreeItem.h; sourceTree = "<group>"; };
+		7F02BBD71835875E001F9216 /* SA_User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_User.h; sourceTree = "<group>"; };
+		7F02BBD81835875E001F9216 /* SA_Variant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Variant.h; sourceTree = "<group>"; };
+		7F02BBD91835875E001F9216 /* SA_Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Widget.h; sourceTree = "<group>"; };
+		7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateProperty.h; sourceTree = "<group>"; };
+		7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivatePropertyCategory.h; sourceTree = "<group>"; };
+		7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateSession.h; sourceTree = "<group>"; };
+		7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateTreeItem.h; sourceTree = "<group>"; };
+		7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateVariant.h; sourceTree = "<group>"; };
+		7F02BBE11835875E001F9216 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
+		7F02BBE21835875E001F9216 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+		7F02BBE51835875E001F9216 /* SA_LogMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_LogMananger.h; sourceTree = "<group>"; };
+		7F02BBE61835875E001F9216 /* SA_Assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Assert.h; sourceTree = "<group>"; };
+		7F02BBE71835875E001F9216 /* SA_UtilConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_UtilConstants.h; sourceTree = "<group>"; };
+		7F02BBEA1835875E001F9216 /* SA_String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_String.cpp; sourceTree = "<group>"; };
+		7F02BBEC1835875E001F9216 /* SA_Properties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_Properties.cpp; sourceTree = "<group>"; };
+		7F02BBED1835875E001F9216 /* SA_Property.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_Property.cpp; sourceTree = "<group>"; };
+		7F02BBEE1835875E001F9216 /* SA_PropertyCategory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_PropertyCategory.cpp; sourceTree = "<group>"; };
+		7F02BBF01835875E001F9216 /* SA_TreeItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_TreeItem.cpp; sourceTree = "<group>"; };
+		7F02BBF11835875E001F9216 /* SA_User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_User.cpp; sourceTree = "<group>"; };
+		7F02BBF21835875E001F9216 /* SA_Variant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_Variant.cpp; sourceTree = "<group>"; };
+		7F02BBF31835875E001F9216 /* SA_Widget.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_Widget.cpp; sourceTree = "<group>"; };
+		7F02BBF41835875E001F9216 /* SA_WidgetWithProperties.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_WidgetWithProperties.cpp; sourceTree = "<group>"; };
+		7F02BBF71835875E001F9216 /* SA_PrivateProperty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_PrivateProperty.cpp; sourceTree = "<group>"; };
+		7F02BBF81835875E001F9216 /* SA_PrivatePropertyCategory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_PrivatePropertyCategory.cpp; sourceTree = "<group>"; };
+		7F02BBF91835875E001F9216 /* SA_PrivateTreeItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_PrivateTreeItem.cpp; sourceTree = "<group>"; };
+		7F02BBFA1835875E001F9216 /* SA_PrivateVariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_PrivateVariant.cpp; sourceTree = "<group>"; };
+		7F02BBFD1835875E001F9216 /* SA_LogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_LogManager.cpp; sourceTree = "<group>"; };
+		7F02BBFE1835875E001F9216 /* SA_Assert.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SA_Assert.cpp; sourceTree = "<group>"; };
+		7F02BBFF1835875E001F9216 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StdAfx.h; path = ../../sources/SAShared/StdAfx.h; sourceTree = "<group>"; };
+		7FC611AA183585E90028569F /* SAShared.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAShared.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC611AD183585E90028569F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		7FC611B1183585E90028569F /* SAShared-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAShared-Info.plist"; sourceTree = "<group>"; };
+		7FC611B3183585E90028569F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FC611B4183585E90028569F /* SAShared-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAShared-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC611A7183585E90028569F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC611AE183585E90028569F /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F02BBCC1835875E001F9216 /* SAShared */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBCD1835875E001F9216 /* Common */,
+				7F02BBCF1835875E001F9216 /* Core */,
+				7F02BBDA1835875E001F9216 /* Private */,
+				7F02BBE11835875E001F9216 /* Shared.h */,
+				7F02BBE21835875E001F9216 /* StdAfx.h */,
+				7F02BBE31835875E001F9216 /* Utils */,
+			);
+			name = SAShared;
+			path = ../../sources/SAShared/SAShared;
+			sourceTree = "<group>";
+		};
+		7F02BBCD1835875E001F9216 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBCE1835875E001F9216 /* SA_String.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7F02BBCF1835875E001F9216 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBD01835875E001F9216 /* SA_CoreConstants.h */,
+				7F02BBD11835875E001F9216 /* SA_InitSessionData.h */,
+				7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */,
+				7F02BBD31835875E001F9216 /* SA_Properties.h */,
+				7F02BBD41835875E001F9216 /* SA_Property.h */,
+				7F02BBD51835875E001F9216 /* SA_PropertyCategory.h */,
+				7F02BBD61835875E001F9216 /* SA_TreeItem.h */,
+				7F02BBD71835875E001F9216 /* SA_User.h */,
+				7F02BBD81835875E001F9216 /* SA_Variant.h */,
+				7F02BBD91835875E001F9216 /* SA_Widget.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F02BBDA1835875E001F9216 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBDB1835875E001F9216 /* Core */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		7F02BBDB1835875E001F9216 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */,
+				7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */,
+				7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */,
+				7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */,
+				7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F02BBE31835875E001F9216 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBE41835875E001F9216 /* LogManager */,
+				7F02BBE61835875E001F9216 /* SA_Assert.h */,
+				7F02BBE71835875E001F9216 /* SA_UtilConstants.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7F02BBE41835875E001F9216 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBE51835875E001F9216 /* SA_LogMananger.h */,
+			);
+			path = LogManager;
+			sourceTree = "<group>";
+		};
+		7F02BBE81835875E001F9216 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBE91835875E001F9216 /* Common */,
+				7F02BBEB1835875E001F9216 /* Core */,
+				7F02BBF51835875E001F9216 /* Private */,
+				7F02BBFB1835875E001F9216 /* Utils */,
+			);
+			name = Sources;
+			path = ../../sources/SAShared/Sources;
+			sourceTree = "<group>";
+		};
+		7F02BBE91835875E001F9216 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBEA1835875E001F9216 /* SA_String.cpp */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7F02BBEB1835875E001F9216 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBEC1835875E001F9216 /* SA_Properties.cpp */,
+				7F02BBED1835875E001F9216 /* SA_Property.cpp */,
+				7F02BBEE1835875E001F9216 /* SA_PropertyCategory.cpp */,
+				7F02BBF01835875E001F9216 /* SA_TreeItem.cpp */,
+				7F02BBF11835875E001F9216 /* SA_User.cpp */,
+				7F02BBF21835875E001F9216 /* SA_Variant.cpp */,
+				7F02BBF31835875E001F9216 /* SA_Widget.cpp */,
+				7F02BBF41835875E001F9216 /* SA_WidgetWithProperties.cpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F02BBF51835875E001F9216 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBF61835875E001F9216 /* Core */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		7F02BBF61835875E001F9216 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBF71835875E001F9216 /* SA_PrivateProperty.cpp */,
+				7F02BBF81835875E001F9216 /* SA_PrivatePropertyCategory.cpp */,
+				7F02BBF91835875E001F9216 /* SA_PrivateTreeItem.cpp */,
+				7F02BBFA1835875E001F9216 /* SA_PrivateVariant.cpp */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F02BBFB1835875E001F9216 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBFC1835875E001F9216 /* LogManager */,
+				7F02BBFE1835875E001F9216 /* SA_Assert.cpp */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7F02BBFC1835875E001F9216 /* LogManager */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBFD1835875E001F9216 /* SA_LogManager.cpp */,
+			);
+			path = LogManager;
+			sourceTree = "<group>";
+		};
+		7FC611A1183585E80028569F = {
+			isa = PBXGroup;
+			children = (
+				7FC611C1183586560028569F /* sources */,
+				7FC611AF183585E90028569F /* SAShared */,
+				7FC611AC183585E90028569F /* Frameworks */,
+				7FC611AB183585E90028569F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC611AB183585E90028569F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC611AA183585E90028569F /* SAShared.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC611AC183585E90028569F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC611AD183585E90028569F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC611AF183585E90028569F /* SAShared */ = {
+			isa = PBXGroup;
+			children = (
+				7FC611B0183585E90028569F /* Supporting Files */,
+			);
+			path = SAShared;
+			sourceTree = "<group>";
+		};
+		7FC611B0183585E90028569F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC611B1183585E90028569F /* SAShared-Info.plist */,
+				7FC611B2183585E90028569F /* InfoPlist.strings */,
+				7FC611B4183585E90028569F /* SAShared-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FC611C1183586560028569F /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				7F02BBCC1835875E001F9216 /* SAShared */,
+				7F02BBE81835875E001F9216 /* Sources */,
+				7F02BBFF1835875E001F9216 /* StdAfx.h */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7FC611A8183585E90028569F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F02BC0A1835875E001F9216 /* SA_Widget.h in Headers */,
+				7F02BC001835875E001F9216 /* SA_String.h in Headers */,
+				7F02BC131835875E001F9216 /* SA_Assert.h in Headers */,
+				7F02BC021835875E001F9216 /* SA_InitSessionData.h in Headers */,
+				7F02BC0D1835875E001F9216 /* SA_PrivateSession.h in Headers */,
+				7F02BC121835875E001F9216 /* SA_LogMananger.h in Headers */,
+				7F02BC251835875E001F9216 /* StdAfx.h in Headers */,
+				7F02BC091835875E001F9216 /* SA_Variant.h in Headers */,
+				7F02BC101835875E001F9216 /* Shared.h in Headers */,
+				7F02BC031835875E001F9216 /* SA_ObjectWithProperties.h in Headers */,
+				7F02BC061835875E001F9216 /* SA_PropertyCategory.h in Headers */,
+				7F02BC081835875E001F9216 /* SA_User.h in Headers */,
+				7F02BC0C1835875E001F9216 /* SA_PrivatePropertyCategory.h in Headers */,
+				7F02BC051835875E001F9216 /* SA_Property.h in Headers */,
+				7F02BC0E1835875E001F9216 /* SA_PrivateTreeItem.h in Headers */,
+				7F02BC141835875E001F9216 /* SA_UtilConstants.h in Headers */,
+				7F02BC071835875E001F9216 /* SA_TreeItem.h in Headers */,
+				7F02BC0F1835875E001F9216 /* SA_PrivateVariant.h in Headers */,
+				7F02BC0B1835875E001F9216 /* SA_PrivateProperty.h in Headers */,
+				7F02BC011835875E001F9216 /* SA_CoreConstants.h in Headers */,
+				7F02BC111835875E001F9216 /* StdAfx.h in Headers */,
+				7F02BC041835875E001F9216 /* SA_Properties.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7FC611A9183585E90028569F /* SAShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC611BE183585E90028569F /* Build configuration list for PBXNativeTarget "SAShared" */;
+			buildPhases = (
+				7FC611A6183585E90028569F /* Sources */,
+				7FC611A7183585E90028569F /* Frameworks */,
+				7FC611A8183585E90028569F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAShared;
+			productName = SAShared;
+			productReference = 7FC611AA183585E90028569F /* SAShared.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC611A2183585E80028569F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = vdev;
+			};
+			buildConfigurationList = 7FC611A5183585E90028569F /* Build configuration list for PBXProject "SAShared" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FC611A1183585E80028569F;
+			productRefGroup = 7FC611AB183585E90028569F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC611A9183585E90028569F /* SAShared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC611A6183585E90028569F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F02BC161835875E001F9216 /* SA_Properties.cpp in Sources */,
+				7F02BC1F1835875E001F9216 /* SA_PrivateProperty.cpp in Sources */,
+				7F02BC1B1835875E001F9216 /* SA_User.cpp in Sources */,
+				7F02BC241835875E001F9216 /* SA_Assert.cpp in Sources */,
+				7F02BC1D1835875E001F9216 /* SA_Widget.cpp in Sources */,
+				7F02BC151835875E001F9216 /* SA_String.cpp in Sources */,
+				7F02BC211835875E001F9216 /* SA_PrivateTreeItem.cpp in Sources */,
+				7F02BC181835875E001F9216 /* SA_PropertyCategory.cpp in Sources */,
+				7F02BC221835875E001F9216 /* SA_PrivateVariant.cpp in Sources */,
+				7F02BC171835875E001F9216 /* SA_Property.cpp in Sources */,
+				7F02BC1A1835875E001F9216 /* SA_TreeItem.cpp in Sources */,
+				7F02BC201835875E001F9216 /* SA_PrivatePropertyCategory.cpp in Sources */,
+				7F02BC1E1835875E001F9216 /* SA_WidgetWithProperties.cpp in Sources */,
+				7F02BC231835875E001F9216 /* SA_LogManager.cpp in Sources */,
+				7F02BC1C1835875E001F9216 /* SA_Variant.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FC611B2183585E90028569F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC611B3183585E90028569F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC611BC183585E90028569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../sources/SAShared,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7FC611BD183585E90028569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../sources/SAShared,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7FC611BF183585E90028569F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAShared/SAShared-Prefix.pch";
+				INFOPLIST_FILE = "SAShared/SAShared-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FC611C0183585E90028569F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SAShared/SAShared-Prefix.pch";
+				INFOPLIST_FILE = "SAShared/SAShared-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC611A5183585E90028569F /* Build configuration list for PBXProject "SAShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC611BC183585E90028569F /* Debug */,
+				7FC611BD183585E90028569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC611BE183585E90028569F /* Build configuration list for PBXNativeTarget "SAShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC611BF183585E90028569F /* Debug */,
+				7FC611C0183585E90028569F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC611A2183585E80028569F /* Project object */;
+}

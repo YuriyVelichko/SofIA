@@ -19,7 +19,7 @@ class SAUI_API String
 
 								String( void );
 								String( const char*		inValue );
-								String( wchar_t*		inValue );
+								String( const wchar_t*  inValue );
 								String( long			inValue );
 								String( const String&	inValue );
 
