@@ -1,5 +1,5 @@
 /********************************************************************************************************/
-/* EGTD_String.cpp	                                                                                    */
+/* String.cpp                                                                                           */
 /*                                                                                                      */
 /* Copyright Yuriy Velichko, 2011                                                                       */
 /*                                                                                                      */
@@ -26,17 +26,7 @@ String::String( void )
 String::String( 
 	const char*		inValue )
 {
-	size_t origsize			= strlen(inValue) + 1;
-	const size_t newsize	= origsize * 10;
-	size_t convertedChars	 = 0;
-
-	wchar_t* wcstring = new wchar_t[newsize];
-
-	// mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);
-
-	mBase = wcstring;	
-
-	delete wcstring;
+	
 }
 
 /********************************************************************************************************/
@@ -100,15 +90,8 @@ const wchar_t* String::str( void ) const
 
 /********************************************************************************************************/
 char* String::c_str( void ) const
-{	
-	size_t origsize = mBase.size();
-	const size_t newsize = origsize * 10;
-	size_t convertedChars = 0;
-	char* nstring = new char[newsize];
-    
-	// wcstombs_s(&convertedChars, nstring, origsize, mBase.c_str(), _TRUNCATE);
-
-	return nstring;		
+{
+    return nullptr;
 }
 
 //////////////////////////////////////////////////////////////////////
