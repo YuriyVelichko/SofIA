@@ -103,22 +103,6 @@ char* String::c_str( void ) const
 void String::operator = ( 
 	const char*			inValue )
 {
-	if( !inValue )
-		return;
-
-	mBase.clear();
-
-	size_t origsize			= strlen(inValue) + 1;
-	const size_t newsize	= origsize * 5;
-	size_t convertedChars	= 0;
-
-	wchar_t* wcstring = new wchar_t[newsize];
-
-	// mbstowcs_s(&convertedChars, wcstring, origsize, inValue, _TRUNCATE);
-	
-	mBase = wcstring;	
-
-	delete wcstring;
 }
 
 /********************************************************************************************************/
