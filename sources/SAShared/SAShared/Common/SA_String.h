@@ -39,7 +39,7 @@ class SAUI_API String
 static	String					Empty( void );
 
 								/** Returns long value of the string.
-								/*	If string is not a number - returns 0. */
+									If string is not a number - returns 0. */
 		long					ToLong( void );
 
 
