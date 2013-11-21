@@ -11,6 +11,10 @@
 #include <iostream>
 using namespace std;
 
+// QT
+#include <QString.h>
+
+
 
 /********************************************************************************************************/
 class SAUI_API String
@@ -72,7 +76,7 @@ const	wchar_t*				str( void ) const;
 
 	protected://////////////////////////////////////////////////////////////////////////
     
-    // TODO: use QString
+        QString                 mBase;
 
 };
 

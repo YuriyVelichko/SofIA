@@ -299,3 +299,7 @@ xcuserdata
 
 *.moved-aside
 
+# SofIA repo
+
+**/third_party/libs/
+**/third_party/sources/

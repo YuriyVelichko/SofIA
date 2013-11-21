@@ -42,6 +42,7 @@
 		7F02BC241835875E001F9216 /* SA_Assert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F02BBFE1835875E001F9216 /* SA_Assert.cpp */; };
 		7F02BC251835875E001F9216 /* StdAfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBFF1835875E001F9216 /* StdAfx.h */; };
 		7FC611AE183585E90028569F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC611AD183585E90028569F /* CoreFoundation.framework */; };
+		7FCF97F9183E071100340DA2 /* QtCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FCF97F8183E071100340DA2 /* QtCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		7FC611B1183585E90028569F /* SAShared-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SAShared-Info.plist"; sourceTree = "<group>"; };
 		7FC611B3183585E90028569F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FC611B4183585E90028569F /* SAShared-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SAShared-Prefix.pch"; sourceTree = "<group>"; };
+		7FCF97F8183E071100340DA2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = ../../third_party/libs/mac/QtCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCF97F9183E071100340DA2 /* QtCore.framework in Frameworks */,
 				7FC611AE183585E90028569F /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +267,7 @@
 		7FC611AC183585E90028569F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FCF97F8183E071100340DA2 /* QtCore.framework */,
 				7FC611AD183585E90028569F /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
@@ -491,8 +495,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../third_party/mac/libs/qt,
+					/Users/johndoe/SofIA/third_party/libs/mac,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAShared/SAShared-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../sources/SAShared,
+					../../third_party/libs/mac/QtCore.framework/Versions/5/Headers,
+				);
 				INFOPLIST_FILE = "SAShared/SAShared-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -502,8 +517,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					../../third_party/mac/libs/qt,
+					/Users/johndoe/SofIA/third_party/libs/mac,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SAShared/SAShared-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../sources/SAShared,
+					../../third_party/libs/mac/QtCore.framework/Versions/5/Headers,
+				);
 				INFOPLIST_FILE = "SAShared/SAShared-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
