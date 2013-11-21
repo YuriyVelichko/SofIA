@@ -19,11 +19,9 @@
 		7F02BC0A1835875E001F9216 /* SA_Widget.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD91835875E001F9216 /* SA_Widget.h */; };
 		7F02BC0B1835875E001F9216 /* SA_PrivateProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */; };
 		7F02BC0C1835875E001F9216 /* SA_PrivatePropertyCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */; };
-		7F02BC0D1835875E001F9216 /* SA_PrivateSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */; };
 		7F02BC0E1835875E001F9216 /* SA_PrivateTreeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */; };
 		7F02BC0F1835875E001F9216 /* SA_PrivateVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */; };
 		7F02BC101835875E001F9216 /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE11835875E001F9216 /* Shared.h */; };
-		7F02BC111835875E001F9216 /* StdAfx.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE21835875E001F9216 /* StdAfx.h */; };
 		7F02BC121835875E001F9216 /* SA_LogMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE51835875E001F9216 /* SA_LogMananger.h */; };
 		7F02BC131835875E001F9216 /* SA_Assert.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE61835875E001F9216 /* SA_Assert.h */; };
 		7F02BC141835875E001F9216 /* SA_UtilConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBE71835875E001F9216 /* SA_UtilConstants.h */; };
@@ -59,11 +57,9 @@
 		7F02BBD91835875E001F9216 /* SA_Widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Widget.h; sourceTree = "<group>"; };
 		7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateProperty.h; sourceTree = "<group>"; };
 		7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivatePropertyCategory.h; sourceTree = "<group>"; };
-		7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateSession.h; sourceTree = "<group>"; };
 		7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateTreeItem.h; sourceTree = "<group>"; };
 		7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_PrivateVariant.h; sourceTree = "<group>"; };
 		7F02BBE11835875E001F9216 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
-		7F02BBE21835875E001F9216 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
 		7F02BBE51835875E001F9216 /* SA_LogMananger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_LogMananger.h; sourceTree = "<group>"; };
 		7F02BBE61835875E001F9216 /* SA_Assert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Assert.h; sourceTree = "<group>"; };
 		7F02BBE71835875E001F9216 /* SA_UtilConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_UtilConstants.h; sourceTree = "<group>"; };
@@ -109,7 +105,6 @@
 				7F02BBCF1835875E001F9216 /* Core */,
 				7F02BBDA1835875E001F9216 /* Private */,
 				7F02BBE11835875E001F9216 /* Shared.h */,
-				7F02BBE21835875E001F9216 /* StdAfx.h */,
 				7F02BBE31835875E001F9216 /* Utils */,
 			);
 			name = SAShared;
@@ -153,7 +148,6 @@
 			children = (
 				7F02BBDC1835875E001F9216 /* SA_PrivateProperty.h */,
 				7F02BBDD1835875E001F9216 /* SA_PrivatePropertyCategory.h */,
-				7F02BBDE1835875E001F9216 /* SA_PrivateSession.h */,
 				7F02BBDF1835875E001F9216 /* SA_PrivateTreeItem.h */,
 				7F02BBE01835875E001F9216 /* SA_PrivateVariant.h */,
 			);
@@ -313,7 +307,6 @@
 				7F02BC0A1835875E001F9216 /* SA_Widget.h in Headers */,
 				7F02BC001835875E001F9216 /* SA_String.h in Headers */,
 				7F02BC131835875E001F9216 /* SA_Assert.h in Headers */,
-				7F02BC0D1835875E001F9216 /* SA_PrivateSession.h in Headers */,
 				7F02BC121835875E001F9216 /* SA_LogMananger.h in Headers */,
 				7F02BC251835875E001F9216 /* StdAfx.h in Headers */,
 				7F02BC091835875E001F9216 /* SA_Variant.h in Headers */,
@@ -329,7 +322,6 @@
 				7F02BC0F1835875E001F9216 /* SA_PrivateVariant.h in Headers */,
 				7F02BC0B1835875E001F9216 /* SA_PrivateProperty.h in Headers */,
 				7F02BC011835875E001F9216 /* SA_CoreConstants.h in Headers */,
-				7F02BC111835875E001F9216 /* StdAfx.h in Headers */,
 				7F02BC041835875E001F9216 /* SA_Properties.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

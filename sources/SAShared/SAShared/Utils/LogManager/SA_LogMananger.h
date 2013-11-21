@@ -42,5 +42,5 @@ static	SA_LogMananger*			Instance( void );
 static SA_LogMananger*		mpLogMananger;
 };
 
-
+/**********************************************************************************************/
 #endif // __SA_LogMananger

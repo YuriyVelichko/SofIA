@@ -47,4 +47,6 @@ class SAUI_API SA_Variant : public SA_PrivateVariant
 		String					ToString( void ) const;
 };
 
+
+/**********************************************************************************************/
 #endif //__SA_Variant

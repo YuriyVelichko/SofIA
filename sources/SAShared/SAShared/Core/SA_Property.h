@@ -67,5 +67,5 @@ class SAUI_API SA_ObjProperty : public SA_PrivateProperty
 		String					ToString( void ) const;		
 };
 
-
+/**********************************************************************************************/
 #endif // __Property

@@ -39,4 +39,5 @@ class SAUI_API SA_PrivateTreeItem : public SA_ObjectWithProperties
 		SA_TreeItem*			mpParent;	
 };
 
+/**********************************************************************************************/
 #endif //__SA_PrivateTreeItem

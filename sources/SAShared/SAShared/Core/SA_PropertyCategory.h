@@ -56,5 +56,5 @@ const	vector<SA_ObjProperty*>&	get_Properties( void ) const;
 
 };
 
-
+/**********************************************************************************************/
 #endif // __PropertyCategory

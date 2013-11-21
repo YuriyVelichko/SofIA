@@ -49,4 +49,5 @@ virtual	SA_TreeItem*			Clone( SA_TreeItem* inParent )					{ return nullptr; }
 		void					AddChild( SA_TreeItem* inChild );								
 };
 
+/**********************************************************************************************/
 #endif //__SA_TreeItem

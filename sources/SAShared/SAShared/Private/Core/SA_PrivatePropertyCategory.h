@@ -41,4 +41,5 @@ class SAUI_API SA_PrivatePropertyCategory
 };
 
 
+/**********************************************************************************************/
 #endif // __PrivatePropertyCategory

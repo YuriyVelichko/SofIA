@@ -109,4 +109,5 @@ virtual	void					UpdateProperty( const String& inName )	{}
 };
 
 
+/**********************************************************************************************/
 #endif // __WidgetWithProperties

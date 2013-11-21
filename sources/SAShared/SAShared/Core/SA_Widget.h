@@ -18,6 +18,7 @@
 #include <SAShared/Core/SA_TreeItem.h>
 #include <SAShared/Core/SA_CoreConstants.h>
 
+
 /********************************************************************************************************/
 // This class is a base for all widgets, 
 // that will be implemented in the plug-in's, for custom UI frameworks.
@@ -46,6 +47,7 @@ class SAUI_API SA_Widget
 virtual	void					CreateProperties	( void );								
 virtual	void					UpdateAllProperties	( void );
 virtual	void					UpdateProperty		( const String& inName );
+    
 
 	public://///////////////////////////////////////////////////////////////////////////
 
@@ -77,4 +79,6 @@ virtual	String					get_WidgetTypeString( void ) const		{ return String::Empty();
 
 };
 
+
+/**********************************************************************************************/
 #endif //__SA_Widget

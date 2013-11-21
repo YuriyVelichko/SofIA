@@ -78,4 +78,5 @@ const	wchar_t*				str( void ) const;
 
 inline String					operator +	( const String& str1, const String& str2 ) { String res( str1 ); return res += str2; }
 
+/**********************************************************************************************/
 #endif //__SAUI_String

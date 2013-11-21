@@ -55,4 +55,6 @@ class SA_PrivateVariant
 	std::shared_ptr<SA_VariantData>		mpData;
 };
 
+
+/**********************************************************************************************/
 #endif //__PrivateVariant
