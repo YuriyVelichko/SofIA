@@ -124,7 +124,6 @@ bool String::operator == (
     return false;
 }
 
-
 /********************************************************************************************************/
 bool String::operator == ( 
 	const String		inValue )
