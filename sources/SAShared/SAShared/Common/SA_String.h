@@ -71,8 +71,9 @@ const	wchar_t*				str( void ) const;
 			 
 
 	protected://////////////////////////////////////////////////////////////////////////
+    
+    // TODO: use QString
 
-		std::wstring			mBase;
 };
 
 inline String					operator +	( const String& str1, const String& str2 ) { String res( str1 ); return res += str2; }

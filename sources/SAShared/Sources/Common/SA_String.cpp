@@ -33,7 +33,6 @@ String::String(
 String::String(
 	const wchar_t*  inValue )
 {
-	mBase = inValue;
 }
 
 /********************************************************************************************************/
@@ -47,7 +46,6 @@ String::String(
 String::String( 
 	const String&	inValue )
 {
-	mBase = inValue.str();
 }
 
 
@@ -72,7 +70,7 @@ String String::Empty( void )
 /********************************************************************************************************/
 long String::ToLong( void )
 {
-	return ( long )wcstol( str(), nullptr, 10 );
+	return 0;
 }
 
 
@@ -85,7 +83,7 @@ long String::ToLong( void )
 /********************************************************************************************************/
 const wchar_t* String::str( void ) const
 {
-	return mBase.c_str();
+    return nullptr;
 }
 
 /********************************************************************************************************/
@@ -111,55 +109,49 @@ void String::operator = (
 void  String::operator = ( 
 	const wchar_t*		inValue )
 {
-	mBase = inValue;
 }
 
 /********************************************************************************************************/
 void  String::operator = ( 
 	const String		inValue )
 {
-	mBase = inValue.str();
 }
 
 /********************************************************************************************************/
 bool String::operator == (
 	const wchar_t*		inValue )
 {
-	wstring str( inValue );
-
-	return mBase.compare( str ) == 0;
+    return false;
 }
+
 
 /********************************************************************************************************/
 bool String::operator == ( 
 	const String		inValue )
 {
-	return mBase.compare( inValue.str() ) == 0;
+	return false;
 }
 
 /********************************************************************************************************/
 bool String::operator != (
 	const wchar_t*		 inValue )
 {
-	wstring str( inValue );
-
-	return !mBase.compare( str );
+    return false;
 }
 
 /********************************************************************************************************/
 String&	String::operator += ( 
 	const wchar_t*	inValue )
 {
-	mBase.append( inValue );
-
-	return *this;
+    static String res;
+    return res;
 }
 
 /********************************************************************************************************/
 String&	String::operator += ( 
 	const String& 	inValue )
 {
-	mBase.append( inValue.str() );
-
-	return *this;
+    static String res;
+    return res;
 }
+
