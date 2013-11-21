@@ -36,4 +36,5 @@ enum SA_ConnectionStatus
 	kConnect_Fail	
 };
 
+/**********************************************************************************************/
 #endif // __CoreConstants

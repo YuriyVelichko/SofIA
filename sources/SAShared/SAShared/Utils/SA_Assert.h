@@ -46,4 +46,4 @@ static	void					Assert(
 
 };
 
-#endif __SA_Assert
+#endif // __SA_Assert

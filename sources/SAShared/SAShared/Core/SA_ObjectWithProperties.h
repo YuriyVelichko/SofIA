@@ -32,8 +32,8 @@ const vector<SA_ObjProperty*>&	get_Properties( void ) const;
 		
 		// <Property>
 								/** Returns property with given name.
-								/*	If property with same name does not presents in the object
-								/*	returns empty property.	*/
+									If property with same name does not presents in the object
+									returns empty property.	*/
 		SA_ObjProperty*			get_Property( const String& inName ) const;
 
 		void					set_Property( 
@@ -46,8 +46,8 @@ const vector<SA_ObjProperty*>&	get_Properties( void ) const;
 
 		// <Category>
 								/** Returns category with given name.
-								/*	If category with same name does not presents in the object
-								/*	returns NULL.	*/
+									If category with same name does not presents in the object
+									returns NULL.	*/
 		SA_ObjProperty*			get_Category( const String& inName ) const;
 
 		// <CategoryCount> [r/o]
@@ -86,11 +86,11 @@ virtual	void					UpdateProperty( const String& inName )	{}
 	// Methods:
 
 								/** Adds new category. 
-								/*	If category with same name already exists - returns that category. */
+									If category with same name already exists - returns that category. */
 		SA_PropertyCategory*	AddCategory( const String& inName );
 
 								/** Adds new property to the current category. 
-								/*	If property with same name already exists - returns that property. */
+									If property with same name already exists - returns that property. */
 		SA_ObjProperty*			AddProperty( 
 									const String&		inName, 
 									const SA_Variant&	inValue );

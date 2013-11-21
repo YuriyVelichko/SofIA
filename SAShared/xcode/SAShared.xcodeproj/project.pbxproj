@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7F02BC001835875E001F9216 /* SA_String.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBCE1835875E001F9216 /* SA_String.h */; };
 		7F02BC011835875E001F9216 /* SA_CoreConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD01835875E001F9216 /* SA_CoreConstants.h */; };
-		7F02BC021835875E001F9216 /* SA_InitSessionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD11835875E001F9216 /* SA_InitSessionData.h */; };
 		7F02BC031835875E001F9216 /* SA_ObjectWithProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */; };
 		7F02BC041835875E001F9216 /* SA_Properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD31835875E001F9216 /* SA_Properties.h */; };
 		7F02BC051835875E001F9216 /* SA_Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F02BBD41835875E001F9216 /* SA_Property.h */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		7F02BBCE1835875E001F9216 /* SA_String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_String.h; sourceTree = "<group>"; };
 		7F02BBD01835875E001F9216 /* SA_CoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_CoreConstants.h; sourceTree = "<group>"; };
-		7F02BBD11835875E001F9216 /* SA_InitSessionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_InitSessionData.h; sourceTree = "<group>"; };
 		7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_ObjectWithProperties.h; sourceTree = "<group>"; };
 		7F02BBD31835875E001F9216 /* SA_Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Properties.h; sourceTree = "<group>"; };
 		7F02BBD41835875E001F9216 /* SA_Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SA_Property.h; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				7F02BBD01835875E001F9216 /* SA_CoreConstants.h */,
-				7F02BBD11835875E001F9216 /* SA_InitSessionData.h */,
 				7F02BBD21835875E001F9216 /* SA_ObjectWithProperties.h */,
 				7F02BBD31835875E001F9216 /* SA_Properties.h */,
 				7F02BBD41835875E001F9216 /* SA_Property.h */,
@@ -316,7 +313,6 @@
 				7F02BC0A1835875E001F9216 /* SA_Widget.h in Headers */,
 				7F02BC001835875E001F9216 /* SA_String.h in Headers */,
 				7F02BC131835875E001F9216 /* SA_Assert.h in Headers */,
-				7F02BC021835875E001F9216 /* SA_InitSessionData.h in Headers */,
 				7F02BC0D1835875E001F9216 /* SA_PrivateSession.h in Headers */,
 				7F02BC121835875E001F9216 /* SA_LogMananger.h in Headers */,
 				7F02BC251835875E001F9216 /* StdAfx.h in Headers */,
